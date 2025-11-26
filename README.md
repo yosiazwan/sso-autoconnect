@@ -42,3 +42,9 @@ Kalau mau yang bisa dijalankan tiap detik (pakai lock file):
 ```bash
 node connect-with-lock.js
 ```
+
+### Jalankan di cron setiap detik
+
+```bash
+* * * * * $HOME/path/to/project/connect-lrs.sh
+```

@@ -36,3 +36,9 @@ isi username dan password di .env dan jalankan:
 ```bash
 node connect.js
 ```
+
+Kalau mau yang bisa dijalankan tiap detik (pakai lock file):
+
+```bash
+node connect-with-lock.js
+```
